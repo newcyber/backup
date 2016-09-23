@@ -1,0 +1,13 @@
+body{min-width:960px;background-color:#FFF;margin:0;font-size:13px;font-weight:normal;line-height:18px;color:#444;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.container{align-items:center;display:flex;justify-content:center}
+.browser{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border:8px solid #F37B43;border-radius:6px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+.browser .navbar{background-color:#FAFAFA;border-radius:5px 5px 0 0;height:2.5em}
+button,button[disabled]:active{background-color:#464646;font:bold 11px Tahoma,Verdana,Arial,sans-serif;color:#FFF;border:medium none;border-radius:3px;cursor:pointer;padding:5px 10px}
+.browser .navbar .controls{line-height:1.25em;padding:0.625em 0}
+.browser .navbar .controls .btn{border:medium none;border-radius:100%;display:block;float:left;height:auto;margin-left:0.5em;outline:medium none;width:0;padding:7px}
+.browser .navbar .controls .btn.close{background-color:#e74c3c}
+.browser .navbar .controls .btn.minimize{background-color:#f1c40f}
+.browser .navbar .controls .btn.fullscreen{background-color:#2ecc71}
+.browser .viewport{background-color:#f5f5f5;border-radius:0 0 5px 5px;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}
+.K-html{margin-bottom:18px;font-size:30px;line-height:36px;font-weight:bold;color:#444;text-align:center}
+.footer{margin-top:25px;color:#555;text-align:center}
