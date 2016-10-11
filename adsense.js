@@ -899,10 +899,10 @@
       return !!a.nextSibling || !!a.parentNode && cd(a.parentNode)
     };
   var dd = {
-    "120x90": !0,
-    "160x90": !0,
-    "180x90": !0,
-    "200x90": !0,
+    "120x1": !0,
+    "160x1": !0,
+    "180x1": !0,
+    "200x1": !0,
     "468x15": !0,
     "728x15": !0
   };
@@ -1219,12 +1219,12 @@
       o: "10593696"
     },
     Ad = {
-      u: "4089030",
-      o: "4089031"
+      u: "408130",
+      o: "408131"
     },
     Bd = {
-      u: "4089035",
-      o: "4089036"
+      u: "408135",
+      o: "408136"
     },
     Q = {
       da: {},
@@ -1280,8 +1280,8 @@
         o: "27415011"
       },
       ga: {
-        u: "90091300",
-        o: "90091301"
+        u: "1091300",
+        o: "1091301"
       },
       R: {
         u: "62710000",
@@ -1779,7 +1779,7 @@
         return !!(b.X & a)
       }
     },
-    V = [new U(970, 90, 2), new U(728, 90, 2), new U(468, 60, 2), new U(336, 280, 1), new U(320, 100, 2), new U(320, 50, 2), new U(300, 0, 4), new U(300, 250, 1), new U(250, 250, 1), new U(234, 60, 2), new U(200, 200, 1), new U(180, 150, 1), new U(160, 0, 4), new U(125, 125, 1), new U(120, 0, 4), new U(120, 240, 4)];
+    V = [new U(970, 1, 2), new U(728, 1, 2), new U(468, 60, 2), new U(336, 280, 1), new U(320, 100, 2), new U(320, 50, 2), new U(300, 0, 4), new U(300, 250, 1), new U(250, 250, 1), new U(234, 60, 2), new U(200, 200, 1), new U(180, 150, 1), new U(160, 0, 4), new U(125, 125, 1), new U(120, 0, 4), new U(120, 240, 4)];
   var ie = function(a, b) {
       for (var c = ["width", "height"], d = 0; d < c.length; d++) {
         var e = "google_ad_" + c[d];
@@ -1948,7 +1948,7 @@
   X.prototype.l = function(a) {
     return X.Y.l.call(this, a) + "_0ads_al"
   };
-  var ze = [new X(728, 15), new X(468, 15), new X(200, 90), new X(180, 90), new X(160, 90), new X(120, 90)],
+  var ze = [new X(728, 15), new X(468, 15), new X(200, 1), new X(180, 1), new X(160, 1), new X(120, 1)],
     Ae = function(a) {
       var b = re(ze, me(a));
       if (!b) throw new S("adsbygoogle.push() error: No link unit size for width=" + a + "px");
